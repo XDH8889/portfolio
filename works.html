@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="黄思贤作品集 — 创意短片 / 活动混剪 / 人物访谈 / 人物摄影短片 / 商业短视频 / 摄影作品">
+<title>作品 · 黄思贤 HUANG SIXIAN</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a class="nav-logo" href="index.html">
+      <span class="cn">黄思贤</span>
+      <span class="en">HUANG SIXIAN</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="works.html" class="active">作品</a>
+      <a href="about.html">关于</a>
+      <a href="contact.html">联系</a>
+    </div>
+    <button class="nav-burger" id="navBurger" aria-label="菜单">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div>
+    <a href="index.html">首页</a>
+    <div class="en">HOME</div>
+  </div>
+  <div>
+    <a href="works.html" class="active">作品</a>
+    <div class="en">WORKS</div>
+  </div>
+  <div>
+    <a href="about.html">关于</a>
+    <div class="en">ABOUT</div>
+  </div>
+  <div>
+    <a href="contact.html">联系</a>
+    <div class="en">CONTACT</div>
+  </div>
+</div>
+
+<header class="detail-hero">
+  <div class="container">
+    <div class="section-head reveal" style="margin-bottom:40px;">
+      <span class="label">WORK</span>
+      <h2>作品集</h2>
+    </div>
+  </div>
+</header>
+
+<div class="filter-bar" id="filterBar">
+  <div class="container">
+    <div class="filter-row" id="filterRow"></div>
+  </div>
+</div>
+
+<section class="section" style="padding-top:64px;">
+  <div class="container">
+    <div id="videoGrid" class="work-grid"></div>
+    <div id="photoArea" style="display:none;">
+      <div id="photoGroups"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="cn">黄思贤</span>
+      <span class="en">HUANG SIXIAN</span>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="works.html">作品</a>
+      <a href="about.html">关于</a>
+      <a href="contact.html">联系</a>
+    </div>
+    <div class="footer-copy">© 2026 HUANG SIXIAN · ALL RIGHTS RESERVED</div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="关闭">✕</button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="上一张">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button class="lb-btn lb-next" id="lbNext" aria-label="下一张">›</button>
+  <div class="lb-count" id="lbCount"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/works.js"></script>
+</body>
+</html>
